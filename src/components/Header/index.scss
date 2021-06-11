@@ -1,0 +1,14 @@
+.header {
+  background-color: hsla(244, 70%, 90%, 0.6);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid hsla(244, 70%, 90%, 0.6);
+
+  .name {
+    font-size: 2rem;
+    color: hsla(90, 90%, 0%, 0.7);
+  }
+}

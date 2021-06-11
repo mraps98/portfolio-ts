@@ -1,8 +1,8 @@
-import "./Header.scss";
-import { PersonalInformation } from "../App";
+import "./index.scss";
+import { IPersonalInformation } from "../../App";
 
 interface IProps {
-  personalInformation: PersonalInformation;
+  personalInformation: IPersonalInformation;
 }
 
 const Header: React.FC<IProps> = ({ personalInformation }: IProps) => {
@@ -11,7 +11,9 @@ const Header: React.FC<IProps> = ({ personalInformation }: IProps) => {
       <h2 className="name">
         {personalInformation.firstName} {personalInformation.lastName}
       </h2>
-      <div className="email">{personalInformation.email}</div>
+      <a href={`mailto:${personalInformation.email}`} className="email">
+        {personalInformation.email}
+      </a>
       <div className="btnResume">
         <a href={personalInformation.resumeUrl}>Resume</a>
       </div>
