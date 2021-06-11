@@ -1,8 +1,10 @@
 .skills {
+  max-width: 1080px;
+
   .skills-wrapper {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
   }
 }

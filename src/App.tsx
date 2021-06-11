@@ -133,8 +133,10 @@ const App: React.FC = () => {
   return (
     <div className="app">
       <Header personalInformation={personalInformation} />
-      <Skills skills={skills} />
-      <Projects projects={projects} />
+      <div className="app-bottom">
+        <Skills skills={skills} />
+        <Projects projects={projects} />
+      </div>
     </div>
   );
 };
