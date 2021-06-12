@@ -11,11 +11,14 @@ const Project: React.FC<IProps> = ({ project }: IProps) => {
       <p>{project.name}</p>
       <a href={project.liveUrl ?? "#"}>
         <img
+          alt={project.name + " logo"}
           src={require(`../../assets/projects/${project.imageUrl}`).default}
         />
       </a>
-      <a href={project.liveUrl}>Live</a>
-      <a href={project.codeUrl}>Code</a>
+      <div className="project-bottom">
+        <a href={project.liveUrl}>Live</a>
+        <a href={project.codeUrl}>Code</a>
+      </div>
     </div>
   );
 };

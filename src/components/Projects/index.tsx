@@ -11,8 +11,8 @@ const Projects: React.FC<IProps> = ({ projects }: IProps) => {
     <div className="projects">
       <h1 className="title">Projects</h1>
       <div className="projects-wrapper">
-        {projects.map((p) => (
-          <Project project={p} />
+        {projects.map((p, index) => (
+          <Project key={index} project={p} />
         ))}
       </div>
     </div>

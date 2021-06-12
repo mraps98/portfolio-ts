@@ -25,7 +25,12 @@ const Header: React.FC<IProps> = ({ personalInformation }: IProps) => {
             <i className="fab fa-linkedin" />
           </a>
         </div>
-        <a className="btnResume" href={personalInformation.resumeUrl}>
+        <a
+          className="btnResume"
+          target="_blank"
+          rel="noreferrer"
+          href={require("../../assets/resume.pdf").default}
+        >
           Resume
         </a>
       </div>

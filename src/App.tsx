@@ -28,7 +28,7 @@ const App: React.FC = () => {
     firstName: "Amritpreet",
     lastName: "Singh",
     email: "amritpreet98@gmail.com",
-    resumeUrl: "./assets/resume.pdf",
+    resumeUrl: "../../assets/resume.pdf",
     githubUrl: "https://github.com/mraps98",
     linkedInUrl: "https://linkedin.com/in/amritpreet98",
   };
@@ -40,20 +40,34 @@ const App: React.FC = () => {
       imageUrl: "react.svg",
       skillUrl: "https://reactnative.dev",
     },
+    { name: "Redux", imageUrl: "redux.png", skillUrl: "https://redux.js.org" },
+    {
+      name: "TypeScript",
+      imageUrl: "typescript.png",
+      skillUrl: "https://www.typescriptlang.org",
+    },
+    { name: "Sass", imageUrl: "sass.png", skillUrl: "https://sass-lang.com" },
+    {
+      name: ".NET Core",
+      imageUrl: "dotnet.png",
+      skillUrl: "https://dotnet.microsoft.com",
+    },
+    { name: "Node", imageUrl: "node.png", skillUrl: "https://nodejs.org" },
     {
       name: "Flask",
       imageUrl: "flask.png",
       skillUrl: "https://palletsprojects.com/p/flask",
     },
+    { name: "Git", imageUrl: "git.png", skillUrl: "https://git-scm.com" },
+    {
+      name: "Rest API",
+      imageUrl: "rest.png",
+      skillUrl: "https://restfulapi.net",
+    },
     {
       name: "Firebase",
       imageUrl: "firebase.png",
       skillUrl: "https://firebase.google.com",
-    },
-    {
-      name: ".NET Core",
-      imageUrl: "dotnet.png",
-      skillUrl: "https://dotnet.microsoft.com",
     },
     {
       name: "SQL",
@@ -65,7 +79,6 @@ const App: React.FC = () => {
       imageUrl: "nosql.png",
       skillUrl: "https://mongodb.com/nosql-explained",
     },
-    { name: "Node", imageUrl: "node.png", skillUrl: "https://nodejs.org" },
     {
       name: "Responsive Design",
       imageUrl: "responsive-design.png",
