@@ -84,6 +84,11 @@ const App: React.FC = () => {
       imageUrl: "responsive-design.png",
       skillUrl: "https://www.w3schools.com/html/html_responsive.asp",
     },
+    {
+      name: "Jest",
+      imageUrl: "jest.png",
+      skillUrl: "https://jestjs.io",
+    },
   ];
 
   const projects: Array<IProject> = [
