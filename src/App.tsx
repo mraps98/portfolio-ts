@@ -162,7 +162,7 @@ const App: React.FC = () => {
     return (
         <div>
             <Header personalInformation={personalInformation} />
-            <div className="max-w-5xl mx-auto">
+            <div className="max-w-5xl mx-auto px-2">
                 <Skills skills={skills} />
                 <Projects projects={projects} />
             </div>
