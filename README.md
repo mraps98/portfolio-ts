@@ -1,5 +1,5 @@
-# Portfolio built using
+# Responsive portfolio built using
 
-- React
-- Typescript
-- Scss
+-   React
+-   Typescript
+-   TailwindCss
