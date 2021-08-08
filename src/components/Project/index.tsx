@@ -23,13 +23,13 @@ const Project: React.FC<IProps> = ({ project }: IProps) => {
             <div className="flex w-full">
                 <a
                     href={project.liveUrl}
-                    className="bg-white hover:bg-gray-800 bg-opacity-90 hover:text-white flex-grow text-center p-2 duration-300"
+                    className="bg-yellow-400 hover:bg-gray-800 bg-opacity-90 text-gray-800 hover:text-white flex-grow text-center p-2 duration-300"
                 >
                     Live
                 </a>
                 <a
                     href={project.codeUrl}
-                    className="bg-white hover:bg-gray-800 bg-opacity-90 hover:text-white flex-grow text-center p-2 duration-300"
+                    className="bg-yellow-400 hover:bg-gray-800 bg-opacity-90 text-gray-800 hover:text-white flex-grow text-center p-2 duration-300"
                 >
                     Code
                 </a>
