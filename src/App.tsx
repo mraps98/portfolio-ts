@@ -1,4 +1,5 @@
 import Header from './components/Header/';
+import PersonalStatement from './components/PersonalStatement';
 import Projects from './components/Projects/';
 import Skills from './components/Skills/';
 
@@ -172,10 +173,11 @@ const App: React.FC = () => {
     return (
         <div>
             <Header personalInformation={personalInformation} />
-            <div className="max-w-5xl mx-auto px-2">
+            <main className="max-w-5xl mx-auto px-2">
+                <PersonalStatement />
                 <Skills skills={skills} />
                 <Projects projects={projects} />
-            </div>
+            </main>
         </div>
     );
 };
