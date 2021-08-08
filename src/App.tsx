@@ -100,6 +100,16 @@ const App: React.FC = () => {
             imageUrl: 'jest.png',
             skillUrl: 'https://jestjs.io',
         },
+        {
+            name: 'Tailiwind',
+            imageUrl: 'tailwind.jpg',
+            skillUrl: 'https://tailwindcss.com',
+        },
+        {
+            name: 'NextJS',
+            imageUrl: 'nextjs.png',
+            skillUrl: 'https://nextjs.org',
+        },
     ];
 
     const projects: Array<IProject> = [
