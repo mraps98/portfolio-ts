@@ -1,8 +1,7 @@
 import { FC } from 'react';
 
 const PersonalStatement: FC = () => (
-    <section className="flex flex-col mt-6 gap-y-4">
-        <h1 className="semi-bold text-gray-800 text-xl">Personal Statement</h1>
+    <section className="flex flex-col mt-6 gap-y-4 text-lg shadow-lg p-3 bg-gray-50 bg-opacity-90">
         <p className="text-gray-800 justify">
             I am a passionate full stack web and mobile developer with a
             Master’s in Applied Computer Science. I have experience with
