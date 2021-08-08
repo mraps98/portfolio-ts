@@ -1,22 +1,21 @@
-import { IProject } from "../../App";
-import Project from "../Project/";
-import "./index.scss";
+import { IProject } from '../../App';
+import Project from '../Project/';
 
 interface IProps {
-  projects: Array<IProject>;
+    projects: Array<IProject>;
 }
 
 const Projects: React.FC<IProps> = ({ projects }: IProps) => {
-  return (
-    <div className="projects">
-      <h1 className="title">Projects</h1>
-      <div className="projects-wrapper">
-        {projects.map((p, index) => (
-          <Project key={index} project={p} />
-        ))}
-      </div>
-    </div>
-  );
+    return (
+        <div className="mt-6 gap-y-4 flex flex-col">
+            <h1 className="semi-bold text-gray-800 text-xl">Projects</h1>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-6 gap-x-6">
+                {projects.map((p, index) => (
+                    <Project key={index} project={p} />
+                ))}
+            </div>
+        </div>
+    );
 };
 
 export default Projects;
