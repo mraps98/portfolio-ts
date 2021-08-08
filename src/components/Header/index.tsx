@@ -6,7 +6,7 @@ interface IProps {
 
 const Header: React.FC<IProps> = ({ personalInformation }: IProps) => {
     return (
-        <div className="sticky top-0 h-40 sm:h-44 lg:h-48 px-8 py-3 sm:p-10 flex items-center justify-between sm:justify-center sm:space-x-16 bg-blue-300 shadow-md">
+        <div className="sticky top-0 h-40 sm:h-44 lg:h-48 px-8 py-3 sm:p-10 flex items-center justify-between sm:justify-center sm:space-x-16 bg-blue-300 shadow-lg">
             <div className="flex flex-col gap-y-2 sm:gap-y-4 lg:gap-y-6">
                 <h1 className="semi-bold text-2xl sm:text-3xl lg:text-4xl text-gray-800">
                     {personalInformation.firstName}{' '}
