@@ -115,6 +115,12 @@ const App: React.FC = () => {
 
     const projects: Array<IProject> = [
         {
+            name: 'Airbnb',
+            codeUrl: 'https://github.com/mraps98/airbnb',
+            liveUrl: 'https://airbnb-mraps98.vercel.app',
+            imageUrl: 'airbnb.png',
+        },
+        {
             name: 'Paint',
             codeUrl: 'https://github.com/mraps98/paint',
             liveUrl: 'https://mraps98.github.io/paint',
