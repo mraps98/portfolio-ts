@@ -117,7 +117,7 @@ const App: React.FC = () => {
         {
             name: 'Amazon',
             codeUrl: 'https://github.com/mraps98/amazon-clone',
-            liveUrl: 'https://amazon-clone-7z3yu2t24-mraps98.vercel.app/',
+            liveUrl: 'https://amazon-clone-mraps98.vercel.app/',
             imageUrl: 'amazon-clone.png',
         },
         {
