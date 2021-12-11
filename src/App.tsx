@@ -115,6 +115,12 @@ const App: React.FC = () => {
 
     const projects: Array<IProject> = [
         {
+            name: 'Spotify',
+            codeUrl: 'https://github.com/mraps98/spotify-clone',
+            liveUrl: 'https://spotify-clone-mraps98.vercel.app/',
+            imageUrl: 'spotify-clone.png',
+        },
+        {
             name: 'Amazon',
             codeUrl: 'https://github.com/mraps98/amazon-clone',
             liveUrl: 'https://amazon-clone-mraps98.vercel.app/',
