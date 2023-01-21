@@ -51,5 +51,8 @@
     },
     "devDependencies": {
         "postcss": "8.1"
+    },
+    "engines": {
+        "node": "<=16.19.0"
     }
 }
