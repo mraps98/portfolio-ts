@@ -12,6 +12,10 @@ clean-deps-client:
 	echo "$@"
 	rm -rf node_modules
 
+.PHONY: deploy
+deploy:
+	yarn deploy
+
 .PHONY: deps
 deps: deps-client
 
