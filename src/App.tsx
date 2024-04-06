@@ -40,6 +40,66 @@ const App: React.FC = () => {
             skillUrl: 'https://reactjs.org',
         },
         {
+            name: 'NextJS',
+            imageUrl: 'nextjs.png',
+            skillUrl: 'https://nextjs.org',
+        },
+        {
+            name: 'PHP',
+            imageUrl: 'php.svg',
+            skillUrl: 'https://www.php.net',
+        },
+        {
+            name: 'AWS',
+            imageUrl: 'aws.png',
+            skillUrl: 'https://aws.amazon.com',
+        },
+        {
+            name: 'Docker',
+            imageUrl: 'docker.jpg',
+            skillUrl: 'https://www.docker.com/',
+        },
+        {
+            name: 'API Design',
+            imageUrl: 'rest.png',
+            skillUrl: 'https://restfulapi.net',
+        },
+        {
+            name: 'SQL',
+            imageUrl: 'sql.png',
+            skillUrl: 'https://www.w3schools.com/sql',
+        },
+        {
+            name: 'NoSQL',
+            imageUrl: 'nosql.png',
+            skillUrl: 'https://mongodb.com/nosql-explained',
+        },
+        {
+            name: 'Cucumber',
+            imageUrl: 'cucumber.png',
+            skillUrl: 'https://cucumber.io',
+        },
+        {
+            name: 'Behat',
+            imageUrl: 'behat.png',
+            skillUrl: 'https://behat.org',
+        },
+        {
+            name: 'Jest',
+            imageUrl: 'jest.png',
+            skillUrl: 'https://jestjs.io',
+        },
+        {
+            name: 'Responsive Design',
+            imageUrl: 'responsive-design.png',
+            skillUrl: 'https://www.w3schools.com/html/html_responsive.asp',
+        },
+        {
+            name: 'Prismic',
+            imageUrl: 'prismic.png',
+            skillUrl: 'https://prismic.io/',
+        },
+        {
             name: 'React Native',
             imageUrl: 'react.svg',
             skillUrl: 'https://reactnative.dev',
@@ -72,44 +132,14 @@ const App: React.FC = () => {
         },
         { name: 'Git', imageUrl: 'git.png', skillUrl: 'https://git-scm.com' },
         {
-            name: 'Rest API',
-            imageUrl: 'rest.png',
-            skillUrl: 'https://restfulapi.net',
-        },
-        {
             name: 'Firebase',
             imageUrl: 'firebase.png',
             skillUrl: 'https://firebase.google.com',
         },
         {
-            name: 'SQL',
-            imageUrl: 'sql.png',
-            skillUrl: 'https://www.w3schools.com/sql',
-        },
-        {
-            name: 'NoSQL',
-            imageUrl: 'nosql.png',
-            skillUrl: 'https://mongodb.com/nosql-explained',
-        },
-        {
-            name: 'Responsive Design',
-            imageUrl: 'responsive-design.png',
-            skillUrl: 'https://www.w3schools.com/html/html_responsive.asp',
-        },
-        {
-            name: 'Jest',
-            imageUrl: 'jest.png',
-            skillUrl: 'https://jestjs.io',
-        },
-        {
-            name: 'Tailiwind',
+            name: 'Tailwind',
             imageUrl: 'tailwind.jpg',
             skillUrl: 'https://tailwindcss.com',
-        },
-        {
-            name: 'NextJS',
-            imageUrl: 'nextjs.png',
-            skillUrl: 'https://nextjs.org',
         },
     ];
 
