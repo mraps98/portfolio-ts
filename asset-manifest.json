@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-ts/static/css/main.877d324f.chunk.css",
-    "main.js": "/portfolio-ts/static/js/main.bc0d0181.chunk.js",
-    "main.js.map": "/portfolio-ts/static/js/main.bc0d0181.chunk.js.map",
+    "main.js": "/portfolio-ts/static/js/main.4e48ce55.chunk.js",
+    "main.js.map": "/portfolio-ts/static/js/main.4e48ce55.chunk.js.map",
     "runtime-main.js": "/portfolio-ts/static/js/runtime-main.7eada326.js",
     "runtime-main.js.map": "/portfolio-ts/static/js/runtime-main.7eada326.js.map",
     "static/js/2.a0309e23.chunk.js": "/portfolio-ts/static/js/2.a0309e23.chunk.js",
@@ -39,7 +39,7 @@
     "static/media/redux.png": "/portfolio-ts/static/media/redux.df7d6546.png",
     "static/media/responsive-design.png": "/portfolio-ts/static/media/responsive-design.4e67641b.png",
     "static/media/responsive-design.png:Zone.Identifier": "/portfolio-ts/static/media/responsive-design.png:Zone.c5473aec.Identifier",
-    "static/media/resume.pdf": "/portfolio-ts/static/media/resume.ea551c7f.pdf",
+    "static/media/resume.pdf": "/portfolio-ts/static/media/resume.2b075943.pdf",
     "static/media/sass.png": "/portfolio-ts/static/media/sass.95b95881.png",
     "static/media/spotify-clone.png": "/portfolio-ts/static/media/spotify-clone.7b0576cf.png",
     "static/media/sql.png:Zone.Identifier": "/portfolio-ts/static/media/sql.png:Zone.9784eb89.Identifier",
@@ -51,6 +51,6 @@
     "static/js/runtime-main.7eada326.js",
     "static/js/2.a0309e23.chunk.js",
     "static/css/main.877d324f.chunk.css",
-    "static/js/main.bc0d0181.chunk.js"
+    "static/js/main.4e48ce55.chunk.js"
   ]
 }
